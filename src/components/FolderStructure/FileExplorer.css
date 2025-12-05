@@ -1,0 +1,43 @@
+.file-item {
+  margin-left: 20px; /* Indent nested items */
+  cursor: pointer;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  transition: background-color 0.2s;
+}
+
+.item-header:hover {
+  background-color: #f0f0f0;
+}
+
+.item-name {
+  margin-left: 5px;
+}
+
+.toggle-icon,
+.folder-icon,
+.file-icon {
+  margin-right: 5px;
+}
+
+.toggle-icon-placeholder {
+  width: 16px; /* Match icon width for alignment */
+  display: inline-block;
+}
+
+.folder-icon {
+  color: #007acc; /* VS Code blue folder color */
+}
+
+.file-icon {
+  color: #999;
+}
+
+.item-children {
+  padding-left: 20px;
+  /* No specific styling needed here as margin on file-item handles indentation */
+}
