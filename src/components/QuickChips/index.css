@@ -1,0 +1,45 @@
+.container-qc {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qc-head {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.qc-input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 40px;
+  margin: 10px 0;
+}
+.qc-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 800px;
+  background: #aaaaaa;
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.qc-chip {
+  height: 40px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 185px;
+  background: #cccccc;
+  border-radius: 5px;
+  align-items: center;
+}
+.qc-close-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

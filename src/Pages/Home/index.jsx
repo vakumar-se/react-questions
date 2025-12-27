@@ -15,13 +15,15 @@ import PaginationTable from '../../components/PaginationTable';
 import NewsFeed from '../../components/NewsFeed';
 import PaginationUsers from '../../components/PaginationUsers';
 import CustomAccordion from '../../components/CustomAccordion';
+import QuickChips from '../../components/QuickChips';
+import TodoList from '../../components/TodoList';
+import OtpComp from '../../components/OtpComp';
 
 const Home = () => {
-  const snackData = {
-    toasts: '',
-  };
   return (
     <div style={styles.container}>
+      {/* <button className="route-btn">OTP</button> */}
+
       {/* <div style={styles.cover}>
                 <h1 style={styles.mainHead}>Cinema Hall Booking </h1>
                 <div style={styles.subHead}>Select your preffered seats </div>
@@ -38,7 +40,10 @@ const Home = () => {
       {/* <CustomInputField /> */}
       {/* <NewsFeed /> */}
       {/* <PaginationUsers /> */}
-      <CustomAccordion />
+      {/* <CustomAccordion /> */}
+      {/* <QuickChips /> */}
+      {/* <TodoList /> */}
+      <OtpComp length={5} />
       {/* <FetchUsers /> */}
       {/* <FolderStructure data={folderStructure} /> */}
       {/* <CusDropdown /> */}

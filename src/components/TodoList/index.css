@@ -1,0 +1,30 @@
+.td-sec {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.td-item {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  padding: 10px 20px;
+  background: #aaaaaa;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.td-text {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+.td-text-completed {
+  text-decoration: line-through;
+}
+.td-delete {
+  background: #cccccc;
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
