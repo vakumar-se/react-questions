@@ -43,6 +43,7 @@ const FetchUsers = () => {
 
   return (
     <div>
+      <p> Copy paste this url to see the results https://jsonplaceholder.typicode.com/users</p>
       <form>
         <input type="text" value={input} onChange={handleInputChange} />
         {isLoading && <div>Loading...</div>}

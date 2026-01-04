@@ -12,6 +12,7 @@ const useFetchUsers = () => {
       .then(res => res.json())
       .then(res => {
         console.log('res', res);
+        setLoading(false);
         setData(res);
       })
       .catch(err => setError('error fetching data'));
