@@ -1,0 +1,35 @@
+.pt-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px;
+  flex-direction: column;
+}
+.pt-head {
+  margin: 10px 0;
+}
+.pt-input-sec {
+  display: flex;
+  flex-direction: row;
+}
+.pt-input {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.pt-btn {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 100px;
+  background: blue;
+  color: wheat;
+  cursor: pointer;
+}

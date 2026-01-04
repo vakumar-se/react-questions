@@ -18,6 +18,7 @@ import CustomAccordion from '../../components/CustomAccordion';
 import QuickChips from '../../components/QuickChips';
 import TodoList from '../../components/TodoList';
 import OtpComp from '../../components/OtpComp';
+import ParallelTimers from '../../components/ParallelTimers';
 
 const Home = () => {
   return (
@@ -43,9 +44,10 @@ const Home = () => {
       {/* <CustomAccordion /> */}
       {/* <QuickChips /> */}
       {/* <TodoList /> */}
-      <OtpComp length={5} />
+      {/* <OtpComp length={5} /> */}
       {/* <FetchUsers /> */}
       {/* <FolderStructure data={folderStructure} /> */}
+      <ParallelTimers />
       {/* <CusDropdown /> */}
       {/* <Snackbar message="Api Call is Success" type="success" /> */}
     </div>
